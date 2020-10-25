@@ -1,0 +1,15 @@
+@import "_variable.scss";
+
+.text-effect {
+  background-image: url("./img/Pureblack.jpg");
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  transition: all 0.5s;
+}
+.text-effect:hover {
+  transform: skewX(-20deg);
+  transform: skewY(-20deg);
+  letter-spacing: 4rem;
+}

@@ -1,0 +1,18 @@
+@import "_variable.scss";
+@import "_button.scss";
+@import "_tsm.scss";
+@import "_text-effect.scss";
+@import "_esport.scss";
+@import "_liquid.scss";
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+}

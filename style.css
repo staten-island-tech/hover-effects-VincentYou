@@ -1,0 +1,291 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #c05cfa;
+  padding: 1rem 3rem;
+  margin: 1rem auto;
+  font-size: 2.5rem;
+  border-radius: 7rem;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  position: relative;
+}
+
+.btn-red {
+  background-color: color black;
+  color: white;
+}
+
+.btn-red::after {
+  background-color: color black;
+  color: white;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-box-shadow: 0 10px 0.5rem rgba(215, 127, 255, 0.6);
+          box-shadow: 0 10px 0.5rem rgba(215, 127, 255, 0.6);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn:hover::after {
+  -webkit-transform: scaleX(1.5) scale(1.5);
+          transform: scaleX(1.5) scale(1.5);
+  opacity: 0;
+}
+
+.btn:active {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  -webkit-box-shadow: 0 5px 0.5rem rgba(221, 128, 128, 0.6);
+          box-shadow: 0 5px 0.5rem rgba(221, 128, 128, 0.6);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tsm {
+  height: 20rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 50%;
+}
+
+.tsm:hover {
+  border-radius: 0;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.tsm-head {
+  font-size: 1.3rem;
+  opacity: 0;
+  color: #d82020;
+  position: absolute;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.tsm:hover .tsm-picture {
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+}
+
+.tsm:hover .tsm-head {
+  opacity: 1;
+  top: 20%;
+  left: 50%;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-effect {
+  background-image: url("./img/Pureblack.jpg");
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.text-effect:hover {
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  -webkit-transform: skewY(-20deg);
+          transform: skewY(-20deg);
+  letter-spacing: 4rem;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.esport-parent {
+  width: 60rem;
+  height: 40rem;
+  background-color: gray;
+}
+
+.esport-team {
+  margin: 2rem;
+  position: relative;
+}
+
+.esport {
+  position: absolute;
+  height: 20rem;
+  -webkit-box-shadow: 0 2rem 1rem #d4dee4;
+          box-shadow: 0 2rem 1rem #d4dee4;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.esport:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.2);
+  outline: 0.5rem solid #000;
+}
+
+.esport-teams:hover .esport:not(:hover) {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  opacity: 0.3;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+.esport-faze {
+  bottom: 15rem;
+  left: 37%;
+}
+
+.esport-mousesports {
+  left: 40%;
+}
+
+.esport-NaVi {
+  bottom: 15rem;
+  right: 37%;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.liquid {
+  height: 100%;
+  position: relative;
+  top: 40rem;
+}
+
+.liquid-picture {
+  height: 100%;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.liquid-head {
+  font-size: 3rem;
+  opacity: 0;
+  color: blue;
+  position: absolute;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.liquid:hover .liquid-picture {
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+}
+
+.liquid:hover .liquid-head {
+  opacity: 1;
+  top: 50%;
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
