@@ -21,13 +21,13 @@ body {
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #c05cfa;
+  background-color: #5a1a5a;
   padding: 1rem 3rem;
   margin: 1rem auto;
   font-size: 2.5rem;
   border-radius: 7rem;
-  -webkit-transition: all 0.7s;
-  transition: all 0.7s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
   position: relative;
 }
 
@@ -106,7 +106,7 @@ body {
 .tsm-head {
   font-size: 1.3rem;
   opacity: 0;
-  color: #d82020;
+  color: red;
   position: absolute;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -152,11 +152,12 @@ body {
 }
 
 .text-effect:hover {
-  -webkit-transform: skewX(-20deg);
-          transform: skewX(-20deg);
-  -webkit-transform: skewY(-20deg);
-          transform: skewY(-20deg);
-  letter-spacing: 4rem;
+  background-image: url("./img/zebra.jpg");
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  -webkit-transform: skewY(30deg);
+          transform: skewY(30deg);
+  letter-spacing: 2rem;
 }
 
 html,
@@ -171,7 +172,7 @@ body {
 .esport-parent {
   width: 60rem;
   height: 40rem;
-  background-color: gray;
+  background-color: rgba(255, 255, 255, 0.514);
 }
 
 .esport-team {
@@ -205,7 +206,7 @@ body {
 }
 
 .esport-faze {
-  bottom: 15rem;
+  bottom: 19rem;
   left: 37%;
 }
 
@@ -214,7 +215,7 @@ body {
 }
 
 .esport-NaVi {
-  bottom: 15rem;
+  bottom: 19rem;
   right: 37%;
 }
 
@@ -230,7 +231,7 @@ body {
 .liquid {
   height: 100%;
   position: relative;
-  top: 40rem;
+  top: 50rem;
 }
 
 .liquid-picture {
@@ -242,9 +243,9 @@ body {
 }
 
 .liquid-head {
-  font-size: 3rem;
+  font-size: 4rem;
   opacity: 0;
-  color: blue;
+  color: aqua;
   position: absolute;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -255,6 +256,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .liquid:hover .liquid-picture {
@@ -266,7 +268,16 @@ body {
 
 .liquid:hover .liquid-head {
   opacity: 1;
-  top: 50%;
+  top: 20%;
+  text-align: center;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  left: 27%;
+}
+
+body {
+  background-color: gray;
+  background-size: cover;
 }
 
 .container {

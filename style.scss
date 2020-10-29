@@ -5,6 +5,11 @@
 @import "_esport.scss";
 @import "_liquid.scss";
 
+body {
+  background-color: (gray);
+  background-size: cover;
+}
+
 .container {
   width: 80vw;
   margin: 2rem auto;

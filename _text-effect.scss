@@ -9,7 +9,8 @@
   transition: all 0.5s;
 }
 .text-effect:hover {
-  transform: skewX(-20deg);
-  transform: skewY(-20deg);
-  letter-spacing: 4rem;
+  background-image: url("./img/zebra.jpg");
+  transform: skewX(30deg);
+  transform: skewY(30deg);
+  letter-spacing: 2rem;
 }

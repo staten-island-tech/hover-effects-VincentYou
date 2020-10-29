@@ -10,6 +10,9 @@ $colors: (
   white: #fff,
   blue: #2979ff,
   black: #000,
+  aqua: #6dd5ed,
+  gray: gray,
+  purple: rgb(241, 112, 241),
 );
 
 @function color($color-name) {
