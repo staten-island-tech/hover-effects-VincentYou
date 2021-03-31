@@ -3,13 +3,13 @@
 .btn,
 .btn:link,
 .btn:visited {
+  background-color: $primary-color-dark;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: (rgb(90, 26, 90));
-  padding: 1rem 3rem;
-  margin: 1rem auto;
-  font-size: 2.5rem;
-  border-radius: 7rem;
+  background-color: $primary-text-color;
+  max-height: 5%;
+  font-size: 5rem;
+  border-radius: 1rem;
   transition: all 0.4s;
   position: relative;
 }
@@ -27,7 +27,7 @@
 .btn:hover {
   transform: translateY(-2px);
   transform: scale(2);
-  box-shadow: 0 10px 0.5rem rgba($color: #d77fff, $alpha: 0.6);
+  box-shadow: 0 10px 1rem rgba($color: #5f9c25, $alpha: 0.6);
 }
 .btn::after {
   content: "";
